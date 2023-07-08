@@ -1,5 +1,5 @@
 {% set name = "qt-dev-helper" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qt_dev_helper-{{ version }}.tar.gz
-  sha256: 948db6801bec45e4ab960ed538c93200fc0574f0bdba00b513d463f7dc92b291
+  sha256: 789b85a6e64d1601cc42a000599b2bfb7481cebb501d759b97a8dfcaa981ac88
 
 build:
   entry_points:
